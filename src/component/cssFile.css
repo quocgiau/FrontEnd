@@ -39,7 +39,6 @@
     background-color: #04AA6D;
     color: white;
 }
-/*button*/
 .button {
     background-color: #04AA6D;
     border: none;
@@ -52,12 +51,11 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-/*formInput*/
 .formInput {
     border: 50px;
     width: 50%;
-    color: red;
-    background-color: blue;
+    color: #ffbaba;
+    background-color: #4b4b98;
 }
 .formInput {
     max-width: 400px; /* Điều chỉnh độ rộng của form */
@@ -74,7 +72,7 @@
 .formInput input[type="text"],
 .formInput button {
     width: 100%; /* Đảm bảo rằng trường input và nút có chiều rộng đầy đủ */
-    padding: 10px; /* Khoảng cách nội dung từ biên */
+    padding: 0; /* Khoảng cách nội dung từ biên */
     margin-bottom: 10px; /* Khoảng cách giữa các trường */
     border: 1px solid #ccc; /* Viền input */
     border-radius: 3px; /* Bo tròn các góc của input */
@@ -93,6 +91,9 @@
     background-color: #45a049; /* Màu nền thay đổi khi di chuột qua nút */
 }
 .formInputNhap{
-    width: 100%;
+    width: 98%;
+}.formInputNhap1{
+    width: 50%;
 }
+
 /*json-server --watch db.json --port 8080*/
